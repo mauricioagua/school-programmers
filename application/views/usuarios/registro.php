@@ -15,11 +15,11 @@
 		</div>
 		<div class="form-group">
 			<label>Usuario</label>
-			<input type="text" class="form-control" name="Usuario" placeholder="Usuario">
+			<input type="text" class="form-control" name="usuario" placeholder="Usuario">
 		</div>
 		<div class="form-group">
 			<label>Clave</label>
-			<input type="password" class="form-control" name="Clave" placeholder="Clave">
+			<input type="password" class="form-control" name="clave" placeholder="Clave">
 		</div>
 		<div class="form-group">
 			<label>Confirmar Clave</label>
@@ -30,7 +30,7 @@
 			<input type="text" class="form-control" name="zipcode" placeholder="Codigo Postal">
 			
 		</div>
-		<button type="submit" class="btn btn-primary btn-block">Submit
+		<button type="submit" class="btn btn-primary btn-block">Guardar
 			
 		</button>
 	</div>

@@ -27,7 +27,7 @@
 		//login usuarios
 
 		public function login(){
-			$data['title']='Iniciar Sesion';
+			$data['title']='Iniciar Sesi&oacuten';
 
 			$this->form_validation->set_rules('usuario','Usuario','requerid');
 			$this->form_validation->set_rules('clave','Clave','required');
@@ -53,7 +53,7 @@
 					$this->session->set_userdata($user_data);
 					//mostrar mensaje
 					$this->session->set_flashdata('user_loggedin','You are now logged in');
-					redirect('posts');
+					redirect('home');
 				 }else {
 					//mostra mensaje
 					$this->session->set_flashdata('login_failed','login is invalid');
